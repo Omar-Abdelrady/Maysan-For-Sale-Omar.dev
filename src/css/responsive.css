@@ -1,0 +1,66 @@
+@media screen and (max-width: 992px) {
+    .landing-page .footer .popup {
+        top: -25% !important;
+    }
+
+    .feedback .paragraph p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 576px) {
+    .landing-page .Header .pragraph-header {
+        font-size: 21px !important;
+    }
+
+    .login ._form .form-control::placeholder {
+        font-size: smaller !important;
+    }
+
+    .landing-page .edit-height {
+        height: 250px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .landing-page .footer .popup {
+        top: -135px !important;
+        text-align: center;
+    }
+
+    .statistics .section-L .details {
+        height: auto;
+        padding-bottom: 25px;
+    }
+}
+
+@media screen and (max-width: 394px) {
+    .landing-page .footer .logo {
+        padding-top: 10rem !important;
+    }
+
+}
+
+@media screen and (max-width: 387px) {
+    .login ._form h2 {
+        font-size: 30px !important;
+    }
+
+    .login ._form .submit-btn {
+        width: 85% !important;
+    }
+
+    .login ._form .verify .form-control {
+        width: 60px !important;
+        height: 55px !important;
+    }
+}
+
+@media screen and (max-width: 301px) {
+    .landing-page .footer .logo {
+        padding-top: 15rem !important;
+    }
+
+}
+
+/*Footer section End*/

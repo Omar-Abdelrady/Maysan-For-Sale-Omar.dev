@@ -1,0 +1,561 @@
+@import "base.css";
+
+/* Start Header Section*/
+
+.landing-page .navbar-landing {
+    border-radius: 40px;
+}
+
+.landing-page .navbar-landing nav {
+    border-radius: 40px;
+    margin-top: 35px;
+    height: auto;
+}
+
+.landing-page .navbar-landing .navbar-nav .links a {
+    color: #000000;
+}
+
+.navbar-nav a {
+    font-size: 22px;
+}
+
+.landing-page .Navbar-piernt {
+    top: 0;
+    z-index: 20;
+    height: 0;
+}
+
+.landing-page {
+    background-color: #FFFFFF;
+}
+
+.landing-page .Header {
+    height: 650px;
+    padding-top: 145px;
+}
+
+.landing-page .Header .pragraph-header {
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 38px;
+    font-family: DIN Next LT W23 Light;
+}
+
+.landing-page .Header .sign .form-control {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 33.9597px;
+    border: none;
+    width: 95%;
+    height: 50px !important;
+    padding: 9px 15px !important;
+    display: inline;
+}
+
+.landing-page .Header .sign .form-control::placeholder {
+    color: rgba(115, 115, 141, 0.6);
+    font-size: 13px
+}
+
+.landing-page .Header .sign .btnL {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.landing-page .Header .sign .form-control::placeholder {
+    color: rgba(115, 115, 141, 0.6);
+    font-size: 13px
+}
+
+.landing-page .Header .list-inline-item {
+    color: #73738D;
+    font-weight: 500;
+    font-size: 11.0889px;
+    line-height: 150%;
+    font-family: DIN Next LT W23 Medium;
+}
+
+.landing-page .Header .sign .btnL {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 33.9597px;
+    height: 50px !important;
+    padding: 9px 0px !important;
+    left: 5%;
+    width: 35%;
+
+}
+
+.landing-page .Header .header-left .D1 {
+    bottom: 0;
+    left: 280px;
+}
+
+.landing-page .Header .header-left .D2 {
+    top: -25px;
+    right: 0;
+}
+
+.landing-page .Header .D3 {
+    bottom: 40px;
+    right: 150px;
+}
+
+/* End Header Section*/
+
+
+/*Start Navbar Section*/
+
+.landing-page .navbar-landing .btn-nav {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 10px !important;
+    padding: 3px 38px !important;
+    font-size: 1.1rem;
+    height: 35px;
+}
+
+/*End Navbar*/
+
+/*Start Footer Section*/
+.landing-page .footer {
+    background: #613EA4;
+}
+
+.landing-page .footer .popup {
+    top: -22%;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+    border-radius: 8.31667px;
+}
+
+.landing-page .footer .popup .btn-Form {
+    width: 65%;
+    font-size: 24px;
+    line-height: 35px;
+    font-weight: 500;
+    font-family: DIN Next LT W23 Medium;
+}
+
+.landing-page .footer li {
+    color: #FFF;
+}
+
+.landing-page .footer a {
+    color: #FFFFFF;
+    font-weight: 100 !important;
+    font-size: 14px;
+}
+
+.landing-page .footer .twitter-logo {
+    width: 27.67px;
+    height: 27.67px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+}
+
+.landing-page .footer footer ul {
+    padding-right: 0 !important;
+}
+
+.landing-page .footer footer ul li:nth-child(1) {
+    color: #A2A2A2 !important;
+}
+
+.landing-page .footer h6 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.landing-page .footer .links ul li a {
+    font-size: 20px;
+    font-weight: 300;
+    font-family: DIN Next LT W23 Ultra Light;
+}
+
+.landing-page .footer h3 {
+    font-size: 38px;
+    line-height: 56px;
+    font-family: DIN Next LT W23 BOLD;
+}
+
+.landing-page .footer .popup p {
+    font-size: 18px;
+}
+
+
+/*End Footer Section*/
+
+
+/*Start information Section*/
+
+
+.landing-page .information {
+    min-height: 725px;
+}
+
+
+.landing-page .info .content {
+    background: #613EA4;
+    border-radius: 12%;
+    width: 100%;
+    min-height: 250px;
+}
+
+.landing-page .info h2 {
+    font-weight: bold;
+    font-size: 38px;
+}
+
+.landing-page .info .info-p {
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(8, 9, 64, 0.8);
+}
+
+.landing-page .info h5 {
+    font-size: 18px;
+    line-height: 24px;
+    color: rgba(8, 9, 64, 0.8);
+}
+
+.landing-page .info .info-card {
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(8, 9, 64, 0.5);
+}
+
+.landing-page .info .D1 {
+    left: 25%
+}
+
+/*End information Section*/
+
+
+/* Stratr Express Section*/
+
+.landing-page .express {
+    background: #613EA4;
+    min-height: 254px;
+}
+
+.landing-page .express .btn-sign {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 7px 26px;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.landing-page .express .img-car {
+    width: 100%;
+    height: 390px;
+    margin-top: -136px;
+}
+
+.landing-page .express .img-car img {
+    width: 100%;
+    height: 100%;
+}
+
+.landing-page .express .img-car .expp {
+    top: 68% !important;
+    right: 35%;
+    width: 24%;
+}
+
+.landing-page .express p {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: DIN Next LT W23 Light;
+    font-weight: 300;
+}
+
+/* End Express Section*/
+
+.landing-page .Header .D3 {
+    bottom: 0;
+    right: 150px;
+}
+
+/* Benefit */
+
+.landing-page .benefit {
+    color: #020202;
+}
+
+.landing-page .benefit h2 {
+    font-size: 38px;
+}
+
+.landing-page .benefit h6 {
+    font-size: 19.5px;
+    opacity: 0.8;
+}
+
+.landing-page .benefit p {
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.landing-page .benefit .box-1 {
+    box-sizing: border-box;
+    width: 248px;
+    height: 258px;
+    background: #ECEDFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    padding-left: 2.5rem;
+}
+
+.landing-page .benefit .box-1 .circle {
+    top: 57%;
+    right: -4%;
+}
+
+.landing-page .benefit .box-1 div:nth-child(1) {
+    background: rgba(71, 77, 255, 0.1);
+    color: rgba(71, 77, 255, 0.5);
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    border-radius: 10px;
+    padding: .75rem 1rem;
+}
+
+.landing-page .benefit .box-1 h6,
+.landing-page .benefit .box-2 h6,
+.landing-page .benefit .box-3 h6 {
+    font-size: 14px;
+    font-family: DIN Next LT W23 BOLD;
+    color: #080940;
+    font-weight: bold;
+}
+
+.landing-page .benefit .box-1 p,
+.landing-page .benefit .box-2 p,
+.landing-page .benefit .box-3 p {
+    font-size: 12px;
+    color: rgba(8, 9, 64, 0.6);
+    font-family: DIN Next LT W23 Medium;
+}
+
+.landing-page .benefit .box-1 .order,
+.landing-page .benefit .box-2 .order,
+.landing-page .benefit .box-3 .order {
+    width: 38px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: #474DFF;
+    color: #FFFFFF;
+    left: -8%;
+    top: 10%;
+    font-size: 17px;
+    font-family: Roboto;
+}
+
+.landing-page .benefit .box-2 {
+    width: 248px;
+    height: 258px;
+    background: #FFF7E4;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    padding-left: 2rem;
+}
+
+.landing-page .benefit .box-2 .rec-light {
+    background-color: rgba(255, 179, 0, 0.21);
+    width: 35px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.landing-page .benefit .box-2 .rec-bold {
+    border-radius: 10px;
+    width: 39px;
+    height: 66px;
+    background: #FFB400;
+}
+
+.landing-page .benefit .box-2 .rec-bold .circle {
+    border: 1px solid #FFFFFF;
+    border-radius: 50%;
+    width: 16.38px;
+    height: 16.38px;
+}
+
+.landing-page .benefit .box-2 .order {
+    background-color: #FFB400;
+}
+
+.landing-page .benefit .box-2 .circle {
+    top: 33%;
+    right: -5%;
+}
+
+.landing-page .benefit .box-3 {
+    width: 248px;
+    height: 258px;
+    background: #FEE7F3;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    padding-left: 2.5rem;
+}
+
+.landing-page .benefit .box-3 .order-3 {
+    background-color: rgba(255, 1, 78, 0.1);
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+}
+
+.landing-page .benefit .box-3 .order-3-circle {
+    background: #FED0E2;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+}
+
+.landing-page .benefit .box-3 .order {
+    background-color: #FF014E;
+}
+
+.landing-page .benefit .box-3 .circle {
+    bottom: 18%;
+    right: -10%;
+}
+
+.landing-page .benefit .bg-circle {
+    bottom: 5%;
+    left: 44%;
+    z-index: 0;
+}
+
+/* Benefit */
+
+/* Feedback */
+
+.feedback h2 {
+    color: #080940;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 56px;
+    font-family: DIN Next LT W23 BOLD;
+}
+
+.feedback .paragraph {
+    height: 301.48px;
+    background-color: #ffffff;
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 10px;
+}
+
+.feedback .paragraph h6 {
+    font-size: 18px;
+    line-height: 26px;
+    font-family: DIN Next LT W23 Medium;
+}
+
+.feedback .paragraph p {
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.feedback .carousel-inner {
+    box-shadow: 0px 13.8611px 55.4444px #F2F5FA;
+    border-radius: 8.31667px;
+}
+
+.feedback .paragraph .comment img {
+    padding: 0 1.7px;
+}
+
+.feedback .carousel-indicators {
+    bottom: -15% !important;
+}
+
+.feedback .carousel-indicators li {
+    background-color: #DBE5F1;
+    width: 10.69px;
+    height: 10.69px;
+    border-radius: 50%;
+    border-style: none;
+}
+
+.feedback .carousel-indicators li.active {
+    background: #613EA4;
+    border-radius: 5px;
+    width: 32.08px;
+}
+
+.feedback .paragraph .comment-photo {
+    top: -20%;
+    z-index: 5;
+}
+
+.feedback .feed {
+    height: 50px;
+    background-color: rgba(240, 244, 249, 0.3);
+}
+
+
+.feedback .feedback-img-01 {
+    top: 13%;
+    right: 13%;
+}
+
+.feedback .feedback-img-02 {
+    top: 24%;
+    right: 27%;
+}
+
+.feedback .feedback-img-03 {
+    bottom: 25%;
+    right: 20%;
+}
+
+.feedback .feedback-img-04 {
+    top: 15%;
+    left: 19%;
+}
+
+.feedback .feedback-img-05 {
+    top: 25%;
+    left: 25%;
+}
+
+.feedback .feedback-img-06 {
+    bottom: 22%;
+    left: 15%;
+}
+
+/* Feedback */
+
+
+/* start Shipping Section */
+
+.landing-page .shipping h2 {
+    font-weight: 500;
+    font-size: 36px;
+    font-family: DIN Next LT W23 Medium;
+}
+
+.landing-page .shipping .paragraph {
+    font-weight: 300;
+    font-size: 27px;
+    line-height: 41px;
+    font-family: DIN Next LT W23 Light;
+}
+
+.landing-page .shipping .content {
+    z-index: 8;
+    display: grid;
+}
+
+.landing-page .shipping .content .w-100 {
+    z-index: 20;
+}
+
+.landing-page .shipping .D1 {
+    bottom: 20%;
+    left: 30%;
+    z-index: 2;
+}

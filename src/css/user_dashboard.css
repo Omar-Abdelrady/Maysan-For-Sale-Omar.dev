@@ -1,0 +1,484 @@
+@import "base.css";
+
+/* Login, Registration, Verification */
+
+.login .row {
+    height: 100vh;
+}
+
+.login .user {
+    background-image: url('./../img/bg_elements.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.login .user .login_btn {
+    color: #4E2F8A;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    background: #FFFFFF;
+    border: 2px solid #4E2F8A;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+.login .design {
+    background-color: #4E2F8A;
+    min-height: 100%;
+}
+
+.login .designs {
+    left: 0;
+    bottom: 0;
+    height: 60vh;
+}
+
+.login .designs img:nth-child(1) {
+    left: 3.8%;
+    bottom: 19%;
+}
+
+.login .designs img:nth-child(2) {
+    left: 10.8%;
+    bottom: 8.52%;
+    width: 490px;
+}
+
+.login ._form h2 {
+    font-weight: 500;
+    font-size: 40px;
+    font-family: DIN Next LT W23 BOLD;
+}
+
+.login ._form h6 {
+    font-weight: 100;
+    font-size: 24px;
+    line-height: 35px;
+    font-family: DIN Next LT W23 Medium;
+}
+
+.login ._form .form-control {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 35px 25px;
+    font-size: 24px;
+    border-style: none;
+}
+
+.login ._form .verify .form-control {
+    width: 75px;
+    height: 73.47px;
+    font-size: 40px;
+    text-align: center;
+    font-family: DIN Next LT W23 BOLD;
+    color: #000000;
+    padding: 0;
+}
+
+.login ._form .form-control::placeholder {
+    font-size: 24px;
+    color: #A2A2A2;
+}
+
+.login ._form .forget-pass {
+    font-size: 20px;
+    color: #737373;
+}
+
+.login ._form .submit-btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    background: #4E2F8A;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 267.42px;
+}
+
+.login ._form .resend {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 29px;
+    color: #000000;
+}
+
+.login ._form .disable:hover {
+    cursor: auto;
+}
+
+/* Login, Registration, Verification */
+
+/* User Dashboard */
+
+.user-dashboard {
+    background-image: url('./../img/bg_elements.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+.user-dashboard h1 {
+    font-family: DIN Next LT W23 Medium;
+    font-weight: 500;
+    font-size: 40px;
+}
+
+/* User Dashboard */
+
+/* Sidebar Component Start */
+
+.sidebar_ {
+    flex: 0 0 22.5%;
+    max-width: 25%;
+}
+
+.sidebar {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    width: 263px;
+    height: 700px;
+}
+
+.sidebar .col-9 {
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 44px;
+    font-family: "DIN Next LT W23 Light";
+    color: #4F4F4F;
+}
+
+.sidebar .hidden_links .col-9 {
+    font-size: 18px !important;
+}
+
+.sidebar a:hover {
+    text-decoration: none;
+}
+
+.sidebar a:hover .col-9 {
+    color: #4E2F8A;
+}
+
+.sidebar .col-9.active {
+    color: #4E2F8A;
+    font-family: "DIN Next LT W23";
+}
+
+/* Sidebar Component End */
+
+/* Navbar Component Start*/
+
+nav {
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 17px rgba(0, 0, 0, 0.14);
+    height: 107px;
+}
+
+nav .bell-2 {
+    bottom: -19%;
+    left: 31%;
+}
+
+nav a {
+    text-decoration: none !important;
+}
+
+nav .notification-counter,
+nav .notification-counter2 {
+    border: 1.5px solid #4E2F8A;
+    border-radius: 50%;
+    color: #4E2F8A;
+    font-size: 12px;
+    width: 16px;
+    height: 16px;
+    top: -10%;
+    left: 55%;
+}
+
+nav .notification-counter2 {
+    border-color: #F16724;
+    color: #F16724;
+}
+
+nav .notification-counter span {
+    display: block;
+    padding-top: 2px;
+    font-family: DIN Next LT W23 BOLD;
+}
+
+nav .new-shipment, .sidebar .new-shipment {
+    background: #FFFFFF;
+    border: 2px solid #F16724;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+}
+
+nav .new-shipment .nav-link, .sidebar .new-shipment .nav-link {
+    padding: 0.5rem;
+}
+
+nav .new-shipment span, .sidebar .new-shipment span {
+    font-size: 18px;
+    line-height: 26px;
+    color: #F16724;
+}
+
+nav .new-shipment .plus, .sidebar .new-shipment .plus {
+    bottom: 35%;
+    right: 11%;
+}
+
+nav .dropdown-menu {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    border-style: none;
+    position: absolute !important;
+    top: 50% !important;
+    left: -50% !important;
+    text-align: right !important;
+}
+
+nav .menu {
+    height: 107px;
+}
+
+nav .menu-logo {
+    width: 50px;
+    height: 50px;
+}
+
+/* Navbar */
+
+/* Statistics */
+
+.statistics .section-L .empty {
+    width: 100%;
+    height: 350px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+}
+
+.statistics .section-L .details {
+    background: #F16724;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    width: 640px;
+    height: 170px;
+}
+
+.statistics .section-L .add-C {
+    background: #4E2F8A;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 10px 15px !important;
+    min-width: 15px;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.statistics .section-L .bundles {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 100%;
+    height: 170px;
+}
+
+.statistics .section-L .bundles .out {
+    top: -45px;
+    left: 24%;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 89%;
+    height: 45px;
+}
+
+.statistics .statistics-sidebar {
+    flex: 0 0 23%;
+    max-width: 25%;
+}
+
+/* Statistics Component End*/
+
+/* Graph Component Start*/
+.statistics .graph {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.08);
+    border-radius: 30px;
+    height: 350px;
+}
+
+.statistics .graph .graphs {
+    height: 233px;
+}
+
+.statistics .graph .graphs .super {
+    width: 11%;
+}
+
+.statistics .graph .graphs .graph-iteam {
+    height: 100%;
+    width: 65%;
+    background-color: #4e2f8a;
+    transition: all 0.5s ease-in-out;
+}
+
+.statistics .graph .graphs .small {
+    height: 100%;
+    transition: all 0.5s ease-in-out;
+    width: 20%;
+    background: #F16724;
+}
+
+.statistics .graph .graphs .border-graph {
+    border-left: 0.25px solid #8BC2C9;
+    border-bottom: 0.25px solid #8BC2C9;
+}
+
+.statistics .graph .graphs .left-graph ul li {
+    font-weight: 300;
+    font-size: 3.1175px;
+    color: #8BC2C9;
+    padding: 11px 0;
+}
+
+
+.statistics .graph .under-graph li {
+    font-weight: 300;
+    font-size: 3.1175px;
+    color: #8BC2C9;
+}
+
+.statistics .graph .head .month {
+    width: auto !important;
+}
+
+.statistics .graph .head .weak {
+    font-size: 24px;
+    line-height: 35px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    border-color: #4E2F8A !important;;
+}
+
+/* Graph Component End*/
+
+/* Sent Shipments */
+
+.sent_shipments table thead {
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px !important;
+    border-style: none;
+}
+
+.sent_shipments table thead th {
+    border-style: none;
+    border-radius: 15px !important;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    color: #818181;
+}
+
+.sent_shipments table tbody tr td {
+    border-style: none;
+    font-size: 21px;
+    text-align: center;
+    color: #000000;
+}
+
+/* Sent Shipments */
+
+/* Footer */
+
+footer ul li {
+    font-size: 14px;
+}
+
+footer ul li:nth-child(1) {
+    color: #A2A2A2;
+}
+
+footer ul li a {
+    font-weight: 500;
+    color: #404040;
+    font-family: DIN Next LT W23 BOLD;
+}
+
+/* Footer */
+
+
+/* Send_Steps Componont Start */
+.send-steps .number-corner {
+    top: -30px;
+    right: -25px;
+}
+
+.send-steps .line {
+    height: 3px;
+    width: 20%;
+    background: #4F4F4F;
+    margin: 0 20px;
+}
+
+.send-steps .line.active {
+    background: #F16724;
+}
+
+.send-steps .text-1{
+    right: 14%;
+}
+.send-steps .text-2{
+    right: 44%;
+}
+.send-steps .text-3{
+    right: 74%;
+}
+
+/* Send_Steps Componont End */
+
+/* Content_Shipments Start*/
+
+
+/* Content_Shipments End*/
+footer ul li a:hover {
+    color: #4E2F8A;
+    text-decoration: none;
+}
+
+/* Footer */
+
+
+/*Start form-shipments*/
+.form-shipments .form2 .custom-select {
+    /*background: #fff url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='4' heig…0 4 5'%3e%3cpath fill='%23343a40' d='M2 0L0 2h4zm0 5L0 3h4z'/%3e%3c/svg%3e") no-repeat right 19.75rem center/8px 10px*/
+}
+
+.form-shipments .form2 .form-check-input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.form-shipments .form2 .check {
+    position: absolute;
+    top: 4px;
+    right: 0;
+    height: 14px;
+    width: 14px;
+    border: 2px solid #4E2F8A;
+
+}
+
+.form-shipments .form2 .form-check-input:checked ~ .check {
+    background-color: #F16724;
+    border: 2px solid #4E2F8A;
+}

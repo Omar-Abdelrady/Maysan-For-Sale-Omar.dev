@@ -1,0 +1,139 @@
+/* Fonts */
+
+@font-face {
+    font-family: DIN Next LT W23;
+    src: url(./../fonts/din-next-lt-w23-regular.ttf);
+}
+
+@font-face {
+    font-family: DIN Next LT W23 BOLD;
+    src: url(./../fonts/FontsFree-Net-din-next-arabic-bold.ttf);
+}
+
+@font-face {
+    font-family: DIN Next LT W23 Medium;
+    src: url(./../fonts/din-next-lt-w23-medium.ttf);
+}
+
+@font-face {
+    font-family: DIN Next LT W23 Light;
+    src: url(./../fonts/din-next-lt-w23-light.ttf);
+}
+
+@font-face {
+    font-family: DIN Next LT W23 Ultra Light;
+    src: url(./../fonts/din-next-lt-w23-ultra-light.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(./../fonts/Roboto-Light.ttf);
+}
+
+/* Fonts */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    direction: rtl;
+    font-family: DIN Next LT W23;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.primary-color {
+    color: #F16724 !important;
+}
+
+.bg-purple {
+    background: #4E2F8A !important;
+}
+
+.bg-orange {
+    background: #F16724 !important;
+}
+
+.bg-img {
+    background-image: url('./../img/bg_elements.jpg');
+    background-size: cover;
+}
+
+.text-purple {
+    color: #4E2F8A !important;
+}
+
+.text-black {
+    color: black !important;
+}
+.text-medium{
+    font-family: DIN Next LT W23 Medium;
+}
+
+.text-bold {
+    font-family: DIN Next LT W23 BOLD;
+}
+
+.form-control {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    padding: 8px 25px;
+    height: 60px;
+    font-size: 24px;
+    border-style: none;
+
+}
+
+.form-control:focus {
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-Form {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    background: #4E2F8A;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 267.42px;
+}
+
+.btn-Form:hover {
+    color: #FFF;
+}
+
+.btn-Form:focus {
+    background: #4E2F8A;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.btn-Form-back {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    background: #4F4F4F;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    width: 267.42px;
+}
+
+.btn-Form-back:hover {
+    color: #FFFFFF;
+}
+
+.btn-Form-back:focus {
+    background: #4F4F4F;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.1);
+}
+
+.text-light {
+    font-family: DIN Next LT W23 Light;
+}
